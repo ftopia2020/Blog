@@ -52,6 +52,16 @@
     </url>
   
     <url>
+      <loc>http://ftopia.cn/posts/</loc>
+      
+      <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://ftopia.cn/tags/</loc>
       
       <lastmod>2020-05-21T00:00:00+00:00</lastmod>
@@ -72,9 +82,9 @@
     </url>
   
     <url>
-      <loc>http://ftopia.cn/2020/getting-started-with-hugo/</loc>
+      <loc>http://ftopia.cn/2020/blogdecorate/</loc>
       
-      <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+      <lastmod>2020-05-21T00:00:00+00:00</lastmod>
       
       
       
@@ -82,7 +92,7 @@
     </url>
   
     <url>
-      <loc>http://ftopia.cn/posts/</loc>
+      <loc>http://ftopia.cn/2020/getting-started-with-hugo/</loc>
       
       <lastmod>2020-05-20T00:00:00+00:00</lastmod>
       
