@@ -3,3 +3,5 @@
 /content
 /static/images
 /public
+
+*.sh
