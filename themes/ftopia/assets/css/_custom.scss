@@ -40,9 +40,15 @@
             padding-left: 12px;
             list-style: none;
             a {
-                padding: 7px 9px 5px;
+                // padding: 7px 9px 5px;
                 color: $theme-color;
                 transition: .5s;
+                display: inline-block;
+                text-decoration: none;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                max-width: 90%;
                 &:hover {
                     background-color: $theme-color;
                     color: #fff;;

@@ -49,7 +49,7 @@
 					<time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
 						itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
 				</span>
-				in
+				<!-- in
 				{{ with .Params.categories -}}
 				<i class="iconfont icon-folder"></i>
 				<span class="post-category">
@@ -60,7 +60,7 @@
 					{{ end -}}
 					{{ end }}
 				</span>
-				{{- end }}
+				{{- end }} -->
 			</div>
 			{{ with .Params.tags }}
 			<div class="post-tags">
