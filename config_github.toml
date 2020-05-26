@@ -45,9 +45,9 @@ hasCJKLanguage = true
     since = 2020
     author = "Faye.Fei"                         # Author's name
     avatar = "/images/me/avatar.jpeg"           # Author's avatar
-    subtitle = "学而不思则罔，思而不学则殆"          # Subtitle
+    subtitle = "Stay hungry, stay foolish ~"    # Subtitle
     cdn_url = ""                                # Base CDN URL
-    home_mode = "post"                              # post or other
+    home_mode = "post"                          # post or other
 
     # dateFormatToUse = "2020-05-20"
 
@@ -72,3 +72,6 @@ hasCJKLanguage = true
     # Dribbble = "xxoo"
     # Medium = "xxoo"
 
+[params.Live2d]
+    MessagePath = "/live2d/"
+    HomePath = "https://ftopia2020.github.io/"

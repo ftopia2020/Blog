@@ -4,8 +4,11 @@
     {{ end }}
     <div class="container">
         <div class="navbar-header header-logo">
-            <!-- logo toDo -->
-            <a href="{{ .Site.BaseURL }}" style="margin-left: 20px">{{ .Site.Title }}</a>
+            <a href="{{ .Site.BaseURL }}" style="margin-left: 20px">
+                <img src="/favicon-32x32.png" style="width: 16px;" />
+                <span> {{ .Site.Title }} </span>
+
+            </a>
         </div>
         <div class="menu navbar-right">
             {{ $currentPage := . }}
