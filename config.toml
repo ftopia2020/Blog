@@ -1,4 +1,4 @@
-baseURL = "https://ftopia.cn/"
+baseURL = "https://ftopia2020.github.io/"
 languageCode = "en-us"
 title = "Ftopia"
 theme = "ftopia"
@@ -44,7 +44,7 @@ hasCJKLanguage = true
 [params]
     since = 2020
     author = "Faye.Fei"                         # Author's name
-    avatar = "/images/me/avatar.jpeg"           # Author's avatar
+    avatar = "/images/me/paw.gif"               # Author's avatar
     subtitle = "Stay hungry, stay foolish ~"    # Subtitle
     cdn_url = ""                                # Base CDN URL
     home_mode = "post"                          # post or other
@@ -74,4 +74,4 @@ hasCJKLanguage = true
 
 [params.Live2d]
     MessagePath = "/live2d/"
-    HomePath = "https://ftopia.cn/"
+    HomePath = "https://ftopia2020.github.io/"
