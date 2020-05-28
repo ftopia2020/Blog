@@ -171,6 +171,14 @@
             width: 100%!important;
             height: auto!important;
         }
+
+        hr {
+            width: 90%;
+            border: 0;
+            height: 2px;
+            background-image: linear-gradient(to right,rgba(0,0,0,0),rgb(221, 90, 94),rgba(0,0,0,0));
+            margin: 30px 0;
+        }
     }
 
     p {

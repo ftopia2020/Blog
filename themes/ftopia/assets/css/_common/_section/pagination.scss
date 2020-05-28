@@ -56,9 +56,10 @@
           }
           &:before {
               left: 50%;
+              display: none !important;
           }
           &:after {
-              right: 50%;
+              right: 30%;
           }
           &:hover {
               &:before,

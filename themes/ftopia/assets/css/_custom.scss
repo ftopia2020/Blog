@@ -33,6 +33,7 @@
         padding: 20px 10px 20px 0px;
         max-height: 80%;
         overflow-y: auto;
+        border-radius: 6px;
         // border-left: 1px solid #ccc;
         // .side-toc-title {
         //     text-align: center;
@@ -350,3 +351,35 @@
 .post-warp .post-content img {
     max-width: 100%;
 }
+
+.post-warp ul {
+    list-style: none; /* Remove default bullets */
+}
+  
+.post-warp ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #dd5a5e; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.post-warp input[type="checkbox"]:disabled {
+    box-shadow: -2px -1px 1px 2px #dd5a5e;
+    border: none;
+    margin: 1px 5px 0 -9px;
+    border-radius: 50%;
+    -webkit-transform: rotate(10deg)scale(1);
+    transform: rotate(10deg)scale(1);
+}
+
+.post-warp input[type="checkbox"]:checked {
+    content: none;
+}
+
+.post-warp input[type="checkbox"]:checked:after {
+    content: "\2713";
+    color: #dd5a5e;
+    font-weight: bolder;
+}
+  
