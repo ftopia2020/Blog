@@ -5,3 +5,5 @@
 /public
 
 *.sh
+
+*.toml
