@@ -365,12 +365,12 @@
 }
 
 .post-warp input[type="checkbox"]:disabled {
-    box-shadow: -2px -1px 1px 2px #dd5a5e;
+    box-shadow: -2px -2px 1px 2px #dd5a5e;
     border: none;
     margin: 1px 5px 0 -9px;
-    border-radius: 50%;
-    -webkit-transform: rotate(10deg)scale(1);
-    transform: rotate(10deg)scale(1);
+    // border-radius: 50%;
+    // -webkit-transform: rotate(10deg)scale(1);
+    // transform: rotate(10deg)scale(1);
 }
 
 .post-warp input[type="checkbox"]:checked {
@@ -381,5 +381,6 @@
     content: "\2713";
     color: #dd5a5e;
     font-weight: bolder;
+    background-color: #fff;
 }
   
