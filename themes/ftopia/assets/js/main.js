@@ -53,4 +53,6 @@ jQuery(function($) {
         _Blog.toggleTheme()
         _Blog.toggleMobileMenu()
     });
+
+    $(".post-content").find("a").attr('target', '_blank');
 });
