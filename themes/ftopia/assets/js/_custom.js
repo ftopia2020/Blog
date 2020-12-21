@@ -12,6 +12,6 @@ $(document).ready(function () {
         );
     });
 
-    // live2d
-    loadlive2d("live2d", "/live2d/model/tia/model.json");
+    // // live2d
+    // loadlive2d("live2d", "/live2d/model/tia/model.json");
 });
