@@ -137,6 +137,9 @@
             img:hover{
                 cursor: zoom-in;
             }
+            img.dark-theme {
+                opacity: $dark-img-opacity;
+            }
         }
 
         .image-caption:not(:empty) {

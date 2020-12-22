@@ -101,6 +101,13 @@
       }
     }
   }
+
+  image {
+    opacity: $light-img-opacity;
+    .dark-theme & {
+      opacity: $dark-img-opacity;
+    }
+  }
   
   blockquote {
     font-size: 1rem;
